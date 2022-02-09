@@ -20,7 +20,7 @@ const Counter = () => {
         setValue(0)
     }
     return (
-        <div className="container">
+        <React.Fragment>
             <h2>React State Example 1 - Counter</h2>
             <div className="inner-content">
                 <h1>{value}</h1>
@@ -30,7 +30,7 @@ const Counter = () => {
                     <button onClick={handleReset} >Reset</button>
                 </div>
             </div>
-        </div>
+        </React.Fragment>
     )
 }
 
